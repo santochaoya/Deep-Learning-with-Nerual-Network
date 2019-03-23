@@ -50,6 +50,7 @@ As the accuracy of logistic regression is only 47%, logistic regression performe
 ![](https://github.com/santochaoya/Deep-Learning-with-Nerual-Network/blob/master/binary%20classification%20with%20tanh/3.jpg)
 
 * Mathematically:
+
 ![](https://github.com/santochaoya/Deep-Learning-with-Nerual-Network/blob/master/binary%20classification%20with%20tanh/4.jpg)
 
 
