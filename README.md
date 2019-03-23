@@ -1,7 +1,6 @@
 # Deep Learning with Neural Network
 
-## 1.Binary classification with one hidden layer
-
+## 1.Binary classification with tanh
 * a binary classification neural network with a single hidden layer
 * activation function : tanh
 * cross entropy loss
