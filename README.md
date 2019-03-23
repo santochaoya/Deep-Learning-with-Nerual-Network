@@ -1,6 +1,15 @@
 # Deep Learning with Neural Network
 
-# 1.Project 1 :Binary classification with one hidden layer
+## 1.Binary classification with one hidden layer
 
-* implement a binary classification neural 
+* a binary classification neural network with a single hidden layer
+* activation function : tanh
+* cross entropy loss
+* forward and backward propagation
 
+==Packages==
+
+* numpy
+* sklearn
+* matplotlib
+* other self-import
