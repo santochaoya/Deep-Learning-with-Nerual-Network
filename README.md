@@ -6,7 +6,7 @@
 * activation function : tanh
 * cross entropy loss
 * forward and backward propagation
-  `Packages`
+    `Packages`
 
 * numpy
 * sklearn
