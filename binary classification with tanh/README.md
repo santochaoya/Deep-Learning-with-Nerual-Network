@@ -29,13 +29,13 @@ Get the dataset from testCase_v2 into X and Y.
 
 Plot dataset in axis of X1 and X2 with color label of Y
 
-![](E:\Projects\github\DL with NN\Deep-Learning-with-Nerual-Network\binary classification with tanh\1.jpg)
+![](https://github.com/santochaoya/Deep-Learning-with-Nerual-Network/blob/master/binary%20classification%20with%20tanh/1.jpg)
 
 ## 3 - Logistic Regression
 
 First, fit data with logistic regression and plot the decision boundary.
 
-![](E:\Projects\github\DL with NN\Deep-Learning-with-Nerual-Network\binary classification with tanh\2.jpg)
+![](https://github.com/santochaoya/Deep-Learning-with-Nerual-Network/blob/master/binary%20classification%20with%20tanh/2.jpg)
 
 As the accuracy of logistic regression is only 47%, logistic regression performed not good on this dataset of a binary classification.
 
@@ -47,21 +47,15 @@ As the accuracy of logistic regression is only 47%, logistic regression performe
 
 * Picture of model:
 
-![](E:\Projects\github\DL with NN\Deep-Learning-with-Nerual-Network\binary classification with tanh\3.jpg)
+![](https://github.com/santochaoya/Deep-Learning-with-Nerual-Network/blob/master/binary%20classification%20with%20tanh/3.jpg)
 
 * Mathematically:
-  $$
-  \begin{align}
-  z^{[1](i)} &= W^{[1]}x^{(i)} + b^{[1]}\\
-  a^{[1](i)} &= tanh(z^{[1](i)})\\
-  z^{[2](i)} & = W^{[2]}a^{[1](i)} + b^{[2]}\\
-  \hat y &= a^{[2](i)} = \sigma(z^{[2](i)})\\
-  y^{(i)}_{prediction} &= \begin{cases}
-  1,  & \text{if $a^{[2](i)}$ > 0.5} \\
-  0, & \text{otherwise}
-  \end{cases}
-  \end{align}
-  $$
+$$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$ 
+$$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
+$$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}\tag{3}$$
+$$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
+$$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \mbox{otherwise } \end{cases}\tag{5}$$
+
   
 
 * cost function $J$			
