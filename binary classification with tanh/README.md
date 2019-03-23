@@ -54,7 +54,10 @@ $$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$
 $$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
 $$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}\tag{3}$$
 $$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
-$$y^{(i)}_{prediction} = \begin{cases} 1 & \text{if $a^{[2](i)} > 0.5$} \\ 0 & \text{otherwise } \end{cases}\tag{5}$$
+\begin{cases}
+n/2,  & \text{if $n$ is even} \\
+3n+1, & \text{if $n$ is odd}
+\end{cases}
 
 
 
