@@ -51,8 +51,11 @@ As the accuracy of logistic regression is only 47%, logistic regression performe
 
 * Mathematically:
 
-![](https://github.com/santochaoya/Deep-Learning-with-Nerual-Network/blob/master/binary%20classification%20with%20tanh/4.jpg)
-
+$$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$ 
+$$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
+$$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}\tag{3}$$
+$$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
+$$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \mbox{otherwise } \end{cases}\tag{5}$$
 
 
 * cost function $J$			
