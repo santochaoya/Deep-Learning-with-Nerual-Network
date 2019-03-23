@@ -5,7 +5,7 @@
 * a binary classification neural network with a single hidden layer
 * activation function : tanh
 * cross entropy loss
-* forward and backward propagation
+* forward and backward propagation<\br>
 `Packages`
 
 * numpy
