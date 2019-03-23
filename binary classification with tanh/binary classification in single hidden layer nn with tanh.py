@@ -36,12 +36,11 @@ plt.title("Logistic Regression")
 plt.show()
 
 
-
-
-'''
 # Print accuracy
 LR_predictions = clf.predict(X.T)
 print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) + np.dot(1-Y,1-LR_predictions))/float(Y.size)*100) +
        '% ' + "(percentage of correctly labelled datapoints)")
-'''
+
+
+
 
