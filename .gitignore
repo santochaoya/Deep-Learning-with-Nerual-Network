@@ -1,79 +1,130 @@
-_site
-.idea
-node_modules
 
+# Created by https://www.gitignore.io/api/python
+# Edit at https://www.gitignore.io/?templates=python
 
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Created by https://www.gitignore.io/api/macos
-# Edit at https://www.gitignore.io/?templates=macos
+# C extensions
+*.so
 
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Icon must end with two \r
-Icon
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Thumbnails
-._*
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Translations
+*.mo
+*.pot
 
-# End of https://www.gitignore.io/api/macos
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
 
-# Created by https://www.gitignore.io/api/sass,jekyll,windows
-# Edit at https://www.gitignore.io/?templates=sass,jekyll,windows
+# Flask stuff:
+instance/
+.webassets-cache
 
-### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Scrapy stuff:
+.scrapy
 
-### Sass ###
-*.css.map
-*.sass.map
-*.scss.map
+# Sphinx documentation
+docs/_build/
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# PyBuilder
+target/
 
-# Dump file
-*.stackdump
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Folder config file
-[Dd]esktop.ini
+# IPython
+profile_default/
+ipython_config.py
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# pyenv
+.python-version
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don¡¯t work, or not
+#   install all needed dependencies.
+#Pipfile.lock
 
-# Windows shortcuts
-*.lnk
+# celery beat schedule file
+celerybeat-schedule
 
-# End of https://www.gitignore.io/api/sass,jekyll,windows
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# End of https://www.gitignore.io/api/python
